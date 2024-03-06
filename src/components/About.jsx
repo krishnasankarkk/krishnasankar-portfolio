@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div className="mt-28 w-full flex flex-row items-center justify-evenly p-24">
+        <div className="mt-28 w-full flex flex-col md:flex-row items-center justify-evenly p-4 gap-4">
           <div className="flex flex-col bg-theme-1-3 w-auto h-52 rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom">
             <span className="w-96 font-extrabold text-2xl">Hi, I&apos;m <br />
             <b className="text-4xl">Krishnasankar</b><br />
