@@ -2,6 +2,7 @@ import { useState } from "react"
 
 function Navbar() {
     const [isAboutHovered, setAboutHovered] = useState(false);
+    const [isSkillsHovered, setSkillsHovered] = useState(false);
     const [isProjectsHovered, setProjectsHovered] = useState(false);
     const [isContactHovered, setContactHovered] = useState(false);
 
@@ -12,6 +13,9 @@ function Navbar() {
             <div className="flex flex-row items-center justify-between gap-14">
                 <span className="relative cursor-pointer hidden md:block" onMouseEnter={() => setAboutHovered(true)} onMouseLeave={() => setAboutHovered(false)}>About
                     <span className={`absolute ${isAboutHovered ? 'block' : 'hidden'} bg-theme-1-3 -z-10 -top-2 -left-2 w-full h-10 rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom`}></span>
+                </span>
+                <span className="relative cursor-pointer hidden md:block" onMouseEnter={() => setSkillsHovered(true)} onMouseLeave={() => setSkillsHovered(false)}>Skills
+                    <span className={`absolute ${isSkillsHovered ? 'block' : 'hidden'} bg-theme-1-3 -z-10 -top-2 -left-2 w-full h-10 rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom`}></span>
                 </span>
                 <span className="relative cursor-pointer hidden md:block" onMouseEnter={() => setProjectsHovered(true)} onMouseLeave={() => setProjectsHovered(false)}>Projects
                     <span className={`absolute ${isProjectsHovered ? 'block' : 'hidden'} bg-theme-1-3 -z-10 -top-2 -left-2 w-full h-10 rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom`}></span>
