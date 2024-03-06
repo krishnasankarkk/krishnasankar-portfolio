@@ -7,7 +7,7 @@ function About() {
             Crafting efficient, maintainable and scalable software solutions for over a year.<br />
             </span>
           </div>
-        <img className="rounded-custom w-80 h-80 shadow-lg shadow-green" src="/src/assets/profile.png" alt="Profile" />
+        <img className="rounded-custom w-80 h-80 shadow-lg shadow-green" src="/profile.png" alt="Profile" />
       </div>
     )
 }
