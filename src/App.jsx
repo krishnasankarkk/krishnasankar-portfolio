@@ -5,6 +5,8 @@ import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 function App() {
 
@@ -16,6 +18,7 @@ function App() {
      <Projects />
      <Contact />
      <Footer />
+     <SpeedInsights />
     </div>
   )
 }
