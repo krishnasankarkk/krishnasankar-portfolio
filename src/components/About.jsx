@@ -1,9 +1,9 @@
 function About() {
     return (
         <div className="mt-52 w-full flex flex-col md:flex-row items-center justify-evenly p-4 gap-4" id="about">
-          <div className="flex flex-col bg-theme-1-3 w-[40rem] h-52 rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom">
-            <span className="w-full font-extrabold text-3xl">Hi, It&apos;s me <br />
-            <b className="text-5xl">Krishnasankar</b><br />
+          <div className="flex flex-col bg-theme-1-3 xs:w-96 md:w-[40rem] h-52 rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom">
+            <span className="w-full font-extrabold xs:text-xl md:text-3xl">Hi, It&apos;s me <br />
+            <b className="md:text-5xl xs:text-3xl">Krishnasankar</b><br />
             A passionate Python developer with a knack for solving complex problems and creating efficient solutions.<br />
             </span>
           </div>

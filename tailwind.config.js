@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '480px',  // Add a custom breakpoint for screens smaller than 'sm'
+      },
       colors: {
         'theme-1': {
           1: '#04364A',

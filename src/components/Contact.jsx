@@ -29,7 +29,7 @@ function Contact() {
 
 
     return (
-        <div className="w-full flex sm:flex-col flex-wrap md:flex-row items-center justify-evenly p-4 gap-4 mt-24" id="contact">
+        <div className="w-full flex xs:flex-col flex-wrap md:flex-row items-center justify-evenly p-4 gap-4 mt-24" id="contact">
           <div className="relative flex flex-col bg-theme-1-3 w-auto h-auto rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom">
             <span className="w-[30rem] font-extrabold text-7xl z-50">Let&apos;s get <br /> in touch</span>
             <span className="absolute -bottom-10 right-20 -z-0 flex flex-col bg-theme-1-4 opacity-65 border-2 border-theme-1-3 w-28 h-24 rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom"></span>
@@ -39,7 +39,7 @@ function Contact() {
             <span className="font-bold text-xl text-theme-1-2 "><br />Email</span>
             <a href="mailto:example@email.com?subject=Subject%20of%20the%20Email&body=Hello%20there!" className="font-bold text-2xl z-50 cursor-pointer">krishnasankarofficial@gmail.com</a>
             <br />
-            <div className="sm:flex md:hidden flex-row gap-4">
+            <div className="xs:flex md:hidden flex-row gap-4">
               <a href="https://linkedin.com/in/krishnasankar-k-k-a59455178/">
                 <img className="w-10 h-10" src="/linkedin.png" alt="linkedin" />
               </a>
@@ -51,7 +51,7 @@ function Contact() {
               </a>
             </div>
           </div>
-          <form ref={form} onSubmit={handleSubmit} className="sm:hidden md:flex flex-col gap-4">
+          <form ref={form} onSubmit={handleSubmit} className="xs:hidden md:flex flex-col gap-4">
             <div className="flex flex-col text-2xl w-full items-start">
               <span className="font-bold">I&apos;m excited to hear from you.</span>
               <span className="font-bold">Let&apos;s start something special together.</span>
