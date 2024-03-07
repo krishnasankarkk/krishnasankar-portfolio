@@ -1,6 +1,6 @@
 function Skills() {
     return (
-        <div className="w-full h-auto flex flex-col items-center justify-center rounded-2xl relative gap-2 mt-4">
+        <div className="w-full h-auto flex flex-col items-center justify-center rounded-2xl relative gap-2 mt-24" id="skills">
           <span className="font-extrabold text-2xl underline ml-2">Skills</span>
           <div className="p-4 w-auto flex flex-row gap-4 flex-wrap items-end justify-center mt-4">
             <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" className="rounded-custom border-2 border-theme-1-3 p-8 w-[10rem] h-auto flex flex-col items-center justify-center">
