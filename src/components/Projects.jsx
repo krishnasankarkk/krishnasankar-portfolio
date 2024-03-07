@@ -21,14 +21,14 @@ function Projects() {
           </div>
           <div className="flex xs:flex-col md:flex-row gap-4 xs:items-center md:items-start justify-center bg-theme-1-4 border-2 border-theme-1-3 w-auto h-auto rounded-2xl p-8 m-4">
             <img className="w-[40rem] h-auto rounded-2xl" src="/kwikmart.png" alt="kwikmart" />
-            <span className="text-xl font-bold"><a href="https://github.com/krishnasankarkk/django-keralagram" className="flex flex-row gap-1 items-center justify-center text-2xl underline">Kwikmart
+            <span className="text-xl font-bold"><a href="https://github.com/krishnasankarkk/kwikmart" className="flex flex-row gap-1 items-center justify-center text-2xl underline">Kwikmart
               <img src="/external-link.png" alt="link" /></a> <br />
               An online shopping application crafted using django. <br />
             </span>
           </div>
           <div className="flex xs:flex-col md:flex-row gap-4 xs:items-center md:items-start justify-center bg-theme-1-4 border-2 border-theme-1-3 w-auto h-auto rounded-2xl p-8 m-4">
             <img className="w-[40rem] h-auto rounded-2xl" src="/aliens.png" alt="Aliens" />
-            <span className="text-xl font-bold"><a href="https://github.com/krishnasankarkk/django-keralagram" className="flex flex-row gap-1 items-center justify-center text-2xl underline">Alien Invasion
+            <span className="text-xl font-bold"><a href="https://github.com/krishnasankarkk/pygame-alien-invasion" className="flex flex-row gap-1 items-center justify-center text-2xl underline">Alien Invasion
               <img src="/external-link.png" alt="link" /></a> <br />
               A 2D game crafted using Python&apos;s pygame library.
             </span>
