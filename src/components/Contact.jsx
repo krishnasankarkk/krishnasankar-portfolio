@@ -12,7 +12,6 @@ function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    alert(`Message submitted:${message}`);
     try {
       await emailjs.sendForm(
         'service_bo945fs',
@@ -20,7 +19,6 @@ function Contact() {
         form.current,
         'uWLEwtRUKNDc5vowO',
       );
-      alert(`Message submitted:${message}`);
     } catch (error) {
       console.error('Error sending email:', error);
     }
