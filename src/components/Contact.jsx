@@ -1,13 +1,23 @@
 'use client'
 import { useState, useRef } from "react"
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
   const [message, setMessage] = useState('');
+  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
   const form = useRef();
 
   const handleMessageChange = (e) => {
     setMessage(e.target.value);
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handlesetUsernameChange = (e) => {
+    setUsername(e.target.value);
   };
 
   const handleSubmit = async (e) => {
@@ -17,7 +27,9 @@ function Contact() {
         'service_bo945fs',
         'template_l2bxd28',
         form.current,
-        'uWLEwtRUKNDc5vowO',
+        {
+          publicKey:'uWLEwtRUKNDc5vowO',
+        }
       );
     } catch (error) {
       console.error('Error sending email:', error);
@@ -45,8 +57,20 @@ function Contact() {
               <span className="font-bold">Call me for any query.</span>
             </div>
             <div className="flex xs:flex-col md:flex-row text-xl w-full items-start gap-4 mt-10">
-              <input className="bg-transparent border-4 border-theme-1-3 p-4 rounded-2xl xs:w-full md:w-1/2" type="text" name="user_name" id="name" placeholder="Name"/>
-              <input className="bg-transparent border-4 border-theme-1-3 p-4 rounded-2xl xs:w-full md:w-1/2" type="email" name="user_email" id="email" placeholder="Email"/>
+              <input className="bg-transparent border-4 border-theme-1-3 p-4 rounded-2xl xs:w-full md:w-1/2" 
+                type="text" 
+                name="user_name" 
+                id="user_name" 
+                value={username}
+                onChange={handlesetUsernameChange}
+                placeholder="Name"/>
+              <input className="bg-transparent border-4 border-theme-1-3 p-4 rounded-2xl xs:w-full md:w-1/2" 
+                type="email" 
+                name="user_email" 
+                id="user_email" 
+                value={email}
+                onChange={handleEmailChange}
+                placeholder="Email"/>
             </div>
             <div className="flex xs:flex-col md:flex-row text-xl w-full items-start gap-4">
               <textarea className="bg-transparent border-4 border-theme-1-3 p-4 rounded-2xl w-full h-52 items-start justify-start" 
