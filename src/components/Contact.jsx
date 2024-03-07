@@ -35,7 +35,7 @@ function Contact() {
             <span className="font-bold text-xl text-theme-1-2"><br />Phone</span>
             <a href="tel:917306310132" className="font-bold text-2xl cursor-pointer">+91 7306310132</a>
             <span className="font-bold text-xl text-theme-1-2 "><br />Email</span>
-            <a href="mailto:example@email.com?subject=Subject%20of%20the%20Email&body=Hello%20there!" className="font-bold text-2xl z-50 cursor-pointer">krishnasankarofficial@gmail.com</a>
+            <a href="mailto:krishnasankarofficial@gmail.com?subject=Subject%20of%20the%20Email&body=Hello%20there!" className="font-bold text-2xl z-50 cursor-pointer">krishnasankarofficial@gmail.com</a>
             <br />
           </div>
           <form ref={form} onSubmit={handleSubmit} className="flex flex-col gap-4">
