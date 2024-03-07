@@ -29,8 +29,8 @@ function Contact() {
 
 
     return (
-        <div className="w-full flex xs:flex-col flex-wrap md:flex-row items-center justify-evenly p-4 gap-4 mt-24" id="contact">
-          <div className="relative flex flex-col bg-theme-1-3 w-auto h-auto rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom">
+        <div className="w-full flex xs:flex-col flex-wrap md:flex-row items-center justify-evenly p-4 gap-24 mt-24" id="contact">
+          <div className="relative flex flex-col bg-theme-1-3 w-96 h-auto rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom">
             <span className="w-[30rem] font-extrabold text-7xl z-50">Let&apos;s get <br /> in touch</span>
             <span className="absolute -bottom-10 right-20 -z-0 flex flex-col bg-theme-1-4 opacity-65 border-2 border-theme-1-3 w-28 h-24 rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom"></span>
             <span className="font-bold text-4xl"><br />Say hello!</span>
@@ -39,29 +39,18 @@ function Contact() {
             <span className="font-bold text-xl text-theme-1-2 "><br />Email</span>
             <a href="mailto:example@email.com?subject=Subject%20of%20the%20Email&body=Hello%20there!" className="font-bold text-2xl z-50 cursor-pointer">krishnasankarofficial@gmail.com</a>
             <br />
-            <div className="xs:flex md:hidden flex-row gap-4">
-              <a href="https://linkedin.com/in/krishnasankar-k-k-a59455178/">
-                <img className="w-10 h-10" src="/linkedin.png" alt="linkedin" />
-              </a>
-              <a href="https://github.com/krishnasankarkk">
-                <img className="w-10 h-10" src="/github.png" alt="github" />
-              </a>
-              <a href="https://www.instagram.com/artbykichu">
-                <img className="w-10 h-10" src="/instagram.png" alt="instagram" />
-              </a>
-            </div>
           </div>
-          <form ref={form} onSubmit={handleSubmit} className="xs:hidden md:flex flex-col gap-4">
+          <form ref={form} onSubmit={handleSubmit} className="flex flex-col gap-4">
             <div className="flex flex-col text-2xl w-full items-start">
               <span className="font-bold">I&apos;m excited to hear from you.</span>
               <span className="font-bold">Let&apos;s start something special together.</span>
               <span className="font-bold">Call me for any query.</span>
             </div>
-            <div className="flex flex-row text-xl w-full items-start gap-4 mt-10">
-              <input className="bg-transparent border-4 border-theme-1-3 p-4 rounded-2xl" type="text" name="user_name" id="name" placeholder="Name"/>
-              <input className="bg-transparent border-4 border-theme-1-3 p-4 rounded-2xl" type="email" name="user_email" id="email" placeholder="Email"/>
+            <div className="flex xs:flex-col md:flex-row text-xl w-full items-start gap-4 mt-10">
+              <input className="bg-transparent border-4 border-theme-1-3 p-4 rounded-2xl xs:w-full md:w-1/2" type="text" name="user_name" id="name" placeholder="Name"/>
+              <input className="bg-transparent border-4 border-theme-1-3 p-4 rounded-2xl xs:w-full md:w-1/2" type="email" name="user_email" id="email" placeholder="Email"/>
             </div>
-            <div className="flex flex-row text-xl w-full items-start gap-4">
+            <div className="flex xs:flex-col md:flex-row text-xl w-full items-start gap-4">
               <textarea className="bg-transparent border-4 border-theme-1-3 p-4 rounded-2xl w-full h-52 items-start justify-start" 
                 type="text" 
                 name="message" 
