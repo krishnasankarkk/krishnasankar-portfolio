@@ -41,7 +41,7 @@ function Contact() {
     return (
         <div className="w-full flex xs:flex-col flex-wrap md:flex-row items-center justify-evenly p-4 gap-24 mt-24" id="contact">
           <div className="relative flex flex-col bg-theme-1-3 w-96 h-auto rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom">
-            <span className="w-[30rem] font-extrabold text-7xl z-50">Let&apos;s get <br /> in touch</span>
+            <span className="w-[30rem] font-extrabold text-7xl z-10">Let&apos;s get <br /> in touch</span>
             <span className="absolute -bottom-10 right-20 -z-0 flex flex-col bg-theme-1-4 opacity-65 border-2 border-theme-1-3 w-28 h-24 rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom"></span>
             <span className="font-bold text-4xl"><br />Say hello!</span>
             <span className="font-bold text-xl text-theme-1-2"><br />Phone</span>
