@@ -39,32 +39,32 @@ function Contact() {
 
 
     return (
-        <div className="w-full flex xs:flex-col flex-wrap md:flex-row items-center justify-evenly p-4 gap-24 mt-24" id="contact">
-          <div className="relative flex flex-col bg-theme-1-3 w-96 h-auto rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom">
-            <span className="w-[30rem] font-extrabold text-7xl z-10">Let&apos;s get <br /> in touch</span>
+        <div className="w-full flex flex-col lg:flex-row items-center justify-evenly p-4 gap-24 mt-24" id="contact">
+          <div className="relative flex flex-col bg-theme-1-3 w-full h-auto rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom">
+            <span className="font-extrabold text-5xl xs:text-7xl z-10">Let&apos;s get <br /> in touch</span>
             <span className="absolute -bottom-10 right-20 -z-0 flex flex-col bg-theme-1-4 opacity-65 border-2 border-theme-1-3 w-28 h-24 rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom"></span>
             <span className="font-bold text-4xl"><br />Say hello!</span>
-            <span className="font-bold text-xl text-theme-1-2"><br />Phone</span>
-            <a href="tel:917306310132" className="font-bold text-2xl cursor-pointer">+91 7306310132</a>
-            <span className="font-bold text-xl text-theme-1-2 "><br />Email</span>
-            <a href="mailto:krishnasankarofficial@gmail.com?subject=Subject%20of%20the%20Email&body=Hello%20there!" className="font-bold text-2xl z-50 cursor-pointer">krishnasankarofficial@gmail.com</a>
+            <span className="font-bold text-xs xs:text-xl text-theme-1-2"><br />Phone</span>
+            <a href="tel:917306310132" className="font-bold text-md xs:text-2xl cursor-pointer">+91 7306310132</a>
+            <span className="font-bold text-xs xs:text-xl text-theme-1-2"><br />Email</span>
+            <a href="mailto:krishnasankarofficial@gmail.com?subject=Subject%20of%20the%20Email&body=Hello%20there!" className="font-bold text-sm xs:text-2xl z-10 cursor-pointer">krishnasankarofficial@gmail.com</a>
             <br />
           </div>
-          <form ref={form} onSubmit={handleSubmit} className="flex flex-col gap-4">
+          <form ref={form} onSubmit={handleSubmit} className="w-full flex flex-col gap-4">
             <div className="flex flex-col text-2xl w-full items-start">
               <span className="font-bold">I&apos;m excited to hear from you.</span>
               <span className="font-bold">Let&apos;s start something special together.</span>
               <span className="font-bold">Call me for any query.</span>
             </div>
-            <div className="flex xs:flex-col md:flex-row text-xl w-full items-start gap-4 mt-10">
-              <input className="bg-transparent border-4 border-theme-1-3 p-4 rounded-2xl xs:w-full md:w-1/2" 
+            <div className="flex flex-col xs:flex-row text-xl w-full items-start gap-4 mt-10">
+              <input className="bg-transparent border-4 border-theme-1-3 p-4 rounded-2xl w-full" 
                 type="text" 
                 name="user_name" 
                 id="user_name" 
                 value={username}
                 onChange={handlesetUsernameChange}
                 placeholder="Name"/>
-              <input className="bg-transparent border-4 border-theme-1-3 p-4 rounded-2xl xs:w-full md:w-1/2" 
+              <input className="bg-transparent border-4 border-theme-1-3 p-4 rounded-2xl w-full" 
                 type="email" 
                 name="user_email" 
                 id="user_email" 
