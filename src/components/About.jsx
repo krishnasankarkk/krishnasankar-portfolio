@@ -13,10 +13,10 @@ function About() {
           </div>
           <img className="rounded-custom w-52 h-52 xs:w-64 xs:h-64 shadow-lg shadow-green" src="/profile.png" alt="Profile" />
           <div className="flex flex-col items-center justify-center gap-6 text-2xl">
-            <a className="flex flex-row items-center justify-center gap-2 w-auto h-auto" href="https://linkedin.com/in/krishnasankar-k-k-a59455178/">
+            <a className="flex flex-row items-center justify-center gap-2 w-auto h-auto" href="https://www.linkedin.com/in/krishnasankarkk/">
               <img className="w-auto h-auto md:w-10 md:h-10" src="/linkedin.png" alt="linkedin" />
               <span className="block md:hidden lg:hidden xl:block font-bold bg-theme-1-4 w-10 h-6 rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom cursor-pointer border-2 border-theme-1-3">LinkedIn</span></a>
-            <a className="flex flex-row items-center justify-center gap-2 w-auto h-auto" href="https://linkedin.com/in/krishnasankar-k-k-a59455178/">
+            <a className="flex flex-row items-center justify-center gap-2 w-auto h-auto" href="https://github.com/krishnasankarkk">
               <img className="w-auto h-auto md:w-10 md:h-10" src="/github.png" alt="github" />
               <span className="block md:hidden lg:hidden xl:block font-bold bg-theme-1-4 w-10 h-6 rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom cursor-pointer border-2 border-theme-1-3">Github</span></a>
             <a className="flex flex-row items-center justify-center gap-2 w-auto h-auto" href="https://www.instagram.com/artbykichu">
