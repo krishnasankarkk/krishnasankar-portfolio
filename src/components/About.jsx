@@ -6,7 +6,7 @@ function About() {
             <b className="text-2xl md:text-4xl lg:text-5xl">Krishnasankar</b><br />
             A passionate web developer with a knack for solving complex problems and creating efficient solutions.<br />
             </span>
-            <a href="https://api.whatsapp.com/send?phone=917306310132" className="hidden md:flex flex-row gap-1 w-60 h-auto items-center justify-center mt-24 bg-theme-1-4 border-2 border-theme-1-3 hover:border-theme-1-1 hover:bg-theme-1-3 p-4 rounded-tl-[45%] rounded-tr-[58%] rounded-bl-[46%] rounded-br-[43%] cursor-pointer">
+            <a href="https://api.whatsapp.com/send?phone=917306310132" className="z-50 hidden md:flex flex-row gap-1 w-60 h-auto items-center justify-center mt-24 bg-theme-1-4 border-2 border-theme-1-3 hover:border-theme-1-1 hover:bg-theme-1-3 p-4 rounded-tl-[45%] rounded-tr-[58%] rounded-bl-[46%] rounded-br-[43%] cursor-pointer">
               <img src="/whatsapp.png" alt="whatsapp" />
               <span className="font-bold text-2xl">Chat with me</span>
             </a>
