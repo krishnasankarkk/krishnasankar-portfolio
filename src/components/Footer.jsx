@@ -1,8 +1,14 @@
 function Footer() {
+
+  function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+  }
     return (
-        <div className="mt-28 w-full h-24 flex flex-col items-center justify-evenly p-4 gap-4 mb-8" id="footer">
-          {/* <img src="/copyright.png" alt="copright" /> */}
-          <span className="font-bold text-3xl">Krishnasankar</span>
+        <section className="mt-28 pb-4 w-full h-full flex flex-col items-center justify-evenly gap-4 bg-theme-1-3" id="footer">
+          <div className="flex items-center justify-center font-bold w-full h-10 bg-[#4db4ad] cursor-pointer hover:bg-[#85ebe4]" onClick={scrollToTop}>Back To Top</div>
           <div className="flex flex-row gap-8">
               <a className="flex items-center justify-center bg-theme-1-4 hover:border-theme-1-1 hover:bg-theme-1-3 w-16 h-16 rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom cursor-pointer border-2 border-theme-1-3" href="https://linkedin.com/in/krishnasankarkk/">
                 <img className="w-8 h-8" src="/linkedin.png" alt="linkedin" />
@@ -14,7 +20,14 @@ function Footer() {
                 <img className="w-8 h-8" src="/instagram.png" alt="instagram" />
               </a>
           </div>
-        </div>
+          <div className="flex flex-row gap-2 items-center justify-center font-semibold text-2xl pt-10">
+            <img src="copyright.png" alt="" />
+            <span>Krishnasankar | Kerala, India</span>
+          </div>
+          <div className="flex flex-row gap-2 items-center justify-center font-semibold text-2xl">
+            <span>2024</span>
+          </div>
+        </section>
     )
 }
 export default Footer

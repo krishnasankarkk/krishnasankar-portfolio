@@ -6,6 +6,9 @@ body {
   font-family: 'Poppins-Regular', sans-serif;
   margin: 0;
 }
+::-webkit-scrollbar {
+	display: none;
+}
 .rounded-custom {
   border-radius: 39% 71% 26% 74% / 67% 44% 56% 33% ;
   animation: anim 30s infinite;

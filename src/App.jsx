@@ -12,7 +12,7 @@ import { Analytics } from "@vercel/analytics/react"
 function App() {
 
   return (
-    <div className='bg-theme-1-4 text-theme-1-1 flex flex-col items-center justify-center -z-50 gap-10' id='home'>
+    <div className='bg-theme-1-4 text-theme-1-1 flex flex-col items-center justify-center -z-50' id='home'>
      <Navbar />
      <About />
      <Skills />

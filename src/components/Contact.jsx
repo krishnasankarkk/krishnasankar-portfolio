@@ -48,7 +48,7 @@ function Contact() {
 
 
     return (
-        <div className="w-full flex flex-col lg:flex-row items-center justify-evenly p-4 gap-24 mt-24" id="contact">
+        <section className="w-full flex flex-col lg:flex-row items-center justify-evenly p-4 gap-24 pt-24" id="contact">
           {isVisible && (
             <div className="fixed top-32 left-1/2 z-50 flex flex-row items-center justify-center bg-theme-1-4 border-2 border-theme-1-1 rounded-full text-theme-1-1 font-bold p-4 -translate-x-1/2">
               <img src="/check.png" alt="Tick" />
@@ -110,7 +110,7 @@ function Contact() {
             </div>
             <button className="flex w-full h-20 bg-theme-1-4 border-2 border-theme-1-1 hover:bg-theme-1-3 items-center justify-center text-2xl font-bold rounded-2xl">Send</button>
           </form>
-        </div>
+        </section>
     )
 }
 export default Contact
