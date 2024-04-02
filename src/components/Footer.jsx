@@ -20,9 +20,8 @@ function Footer() {
                 <img className="w-8 h-8" src="/instagram.png" alt="instagram" />
               </a>
           </div>
-          <div className="flex flex-row gap-2 items-center justify-center font-semibold text-xl pt-10">
-            <img src="copyright.png" alt="" />
-            <span>2024 | Portfolio of <a href="/" className="hover:text-theme-1-4 custom-pointer">Krishnasankar</a> | Kerala, India</span>
+          <div className="flex flex-row gap-2 items-center justify-center font-semibold text-sm md:text-xl pt-10">
+            <span>&copy; 2024 <a href="/" className="hover:text-theme-1-4 custom-pointer">Krishnasankar</a>. All rights reserved.</span>
           </div>
         </section>
     )
