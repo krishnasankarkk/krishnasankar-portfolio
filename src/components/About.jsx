@@ -23,7 +23,7 @@ function About() {
               <img className="w-auto h-auto md:w-10 md:h-10" src="/instagram.png" alt="instagram" />
               <span className="block md:hidden lg:hidden xl:block font-bold bg-theme-1-4 w-10 h-6 rounded-tl-[55%] rounded-tr-[68%] rounded-bl-[56%] rounded-br-[43%] rounded-custom custom-pointer border-2 border-theme-1-3">Instagram</span></a>
           </div>
-          <img className="absolute left-1/2 -bottom-20 w-12 h-12 animate-bounce" src="/mouse.png" alt="" />
+          <img className="hidden md:block absolute left-1/2 -bottom-20 w-12 h-12 animate-bounce" src="/mouse.png" alt="" />
         </section>
     )
 }
