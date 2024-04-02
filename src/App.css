@@ -2,9 +2,21 @@
   font-family: 'Poppins-Regular';
   src: url('/src//fonts/Poppins-Regular.ttf');
 }
+
+
 body {
   font-family: 'Poppins-Regular', sans-serif;
   margin: 0;
+  cursor: url('/public/cursor.png'), auto;
+}
+.custom-cursor {
+	cursor: url('/public/cursor.png'), auto;
+}
+.custom-pointer {
+	cursor: url('/public/cursor-pointer.png'), pointer;
+}
+.custom-text {
+	cursor: url('/public/text.png'), text;
 }
 ::-webkit-scrollbar {
 	display: none;
