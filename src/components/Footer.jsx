@@ -21,7 +21,7 @@ function Footer() {
               </a>
           </div>
           <div className="flex flex-row gap-2 items-center justify-center font-semibold text-sm md:text-xl pt-10">
-            <span>&copy; 2024 <a href="/" className="hover:text-theme-1-4 custom-pointer">Krishnasankar</a>. All rights reserved.</span>
+            <span>&copy; 2024. All rights reserved.</span>
           </div>
         </section>
     )
