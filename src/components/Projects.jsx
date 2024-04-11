@@ -59,7 +59,7 @@ function Projects() {
             </div>
           </a>
           <div  className="flex flex-col lg:flex-row gap-4 xs:items-center md:items-start justify-center bg-theme-1-4 border-2 border-theme-1-3 w-[80%] h-auto rounded-2xl p-8 m-4 hover:bg-theme-1-3 hover:border-theme-1-1 custom-pointer">
-            <span className="text-xl font-bold">More projects to coming soon...</span>
+            <span className="text-xl font-bold">More projects are coming soon...</span>
           </div>
         </section>
     )
